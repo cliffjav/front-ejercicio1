@@ -2,24 +2,35 @@
     color:#FFFFFF;
     text-align:center;
 }
-#background{
-    background-image: url("../img/desing.jpg");
-    background-size: auto;
-    position: absolute;
-    width: 1280px;
-    height: 720px;
+.background{
+    background-image:url("../img/desing.jpg");
+    background-size:auto;
+    position:absolute;
+    width:100%;
+    height:100%;
+    filter:blur(3px);
+    z-index: -1;
 }
 h1{
     font-family:"Open Sans",sans-serif;
-    font-size: 40px;
+    font-size:50px;
 }
-p{
-    font-size: 25px;
+#cita{
+    font-size:30px;
     font-family:"Merriweather",serif;
+    color:#C6C6CF;
 }
 img{
-    border: 1px solid #0000ff;
-    text-align: center;
-    height:120px;
-    width:200px;
+    border: 7px solid #FFFFFF;
+    border-radius:10px;
+    align:center;
+    height:115px;
+    width:159px;
+    margin-top:60px;
+    margin-bottom:50px;
+    box-shadow:10px 10px 15px black;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
